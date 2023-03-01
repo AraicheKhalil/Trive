@@ -1,0 +1,68 @@
+/******    Start Trive Landing Page Project    *******/
+
+
+/***   Start Global Rules   ***/
+body{
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color:#FF7424;
+    --footer--bg-clr:#FCEAE3;
+    --bg-section:#E5E5E5;
+    --padding-top:100px;
+    --padding-bottom:100px;
+    --rad-10:10px;
+}
+
+/* Start Container */
+.Container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+    .Container{
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width:992px) {
+    .Container{
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width:1200px) {
+    .Container{
+        width: 1170px;
+    }
+}
+/* End Container */
+
+/* Start Components */
+
+/* End Components */
+
+/***   End Global Rules   ***/
+
+
+/******     End of The Project     *****/
