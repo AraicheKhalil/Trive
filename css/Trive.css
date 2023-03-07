@@ -246,6 +246,9 @@ html{
     .hero .tour-searching{
         flex-direction: column;
     }
+    .hero .tour-searching .search{
+        width: 100%;
+    }
 }
 .hero .images{
     display: flex;
@@ -399,7 +402,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .pop-dest h1{
     font-family: var(--DM-Serif-Display);
@@ -408,8 +411,17 @@ html{
     padding: 20px;
 }
 @media (max-width:425px) {
+    .pop-dest .head{
+        justify-content: space-around;
+        padding: 0;
+        margin-bottom: -50px;
+    }
+    .pop-dest .head h1{
+        font-size: 26px;
+    }
     .pop-dest .head a{
-        display: none;
+        padding: 15px 10px;
+        font-size: 12px;
     }
 }
 .pop-dest .all-dest{
@@ -487,6 +499,7 @@ html{
     .pop-dest .all-dest{
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0 20px;
     }
     .pop-dest .all-dest .box{
         margin-top: 100px;
@@ -608,15 +621,22 @@ html{
     align-items: center;
     padding: 20px 0;
 }
-.Stories h1{
+.Stories .head h1{
     font-family: var(--DM-Serif-Display);
 }
-.Stories a{
+.Stories .head a{
     padding: 20px;
 }
 @media (max-width:425px) {
+    .Stories .head{
+        justify-content: space-around;
+    }
+    .Stories .head h1{
+        font-size: 26px;
+    }
     .Stories .head a{
-        display: none;
+        padding: 15px 10px;
+        font-size: 12px;
     }
 }
 .Stories .all-stories{
@@ -753,7 +773,7 @@ html{
     display: flex;
     justify-content: space-between;
 }
-@media (max-width:768px) {
+@media (max-width:992px) {
     .footer .Container{
         justify-content: center;
         align-items: center;
