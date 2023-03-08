@@ -219,6 +219,10 @@ html{
     border: 1px solid #EFEFEF;
     box-shadow: 0px 9px 20px -4px rgba(255, 116, 36, 0.09);
 }
+.hero .tour-searching .box .tour-info{
+    text-align: left;
+    padding: 5px;
+}
 .hero .tour-searching .box .tour-info p{
     margin: 9px 0 0 6px;
 }
@@ -238,6 +242,7 @@ html{
     outline: none;
     margin-top: 10px;
     border: none;
+    background-color: transparent;
 }
 .hero .tour-searching .search{
     padding: 21px 31px;
@@ -381,7 +386,7 @@ html{
     font-size: 16px;
     mix-blend-mode: normal;
     line-height: 1.7;
-    margin: 30px 0;
+    margin: 30px auto;
     max-width: 420px;
 }
 .Explore .info .button{
@@ -773,6 +778,29 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.footer .Contact img{
+    margin-top: 15px;
+}
+.footer .Contact .socials{
+    margin-top: 30px ;
+}
+.footer .Contact .socials i{
+    color: var(--main-color);
+    font-size: 22px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.footer .guide{
+    display: flex;
+    gap: 100px;
+}
 @media (max-width:992px) {
     .footer .Container{
         justify-content: center;
@@ -780,26 +808,9 @@ html{
         flex-direction: column;
         gap: 60px;
     }
-}
-.footer .Contact .socials{
-    position: relative;
-}
-.footer .Contact .socials i{
-    position: absolute;
-}
-.footer .Contact .socials i::before{
-    content: '';
-    position: absolute;
-    background-color: red;
-    width: 20px;
-    height: 20px;
-    left: 0;
-    top: 0;
-    z-index: 1;
-}
-.footer .guide{
-    display: flex;
-    gap: 100px;
+    .footer .Contact {
+        text-align: center;
+    }
 }
 @media (max-width:767px) {
     .footer .guide{
